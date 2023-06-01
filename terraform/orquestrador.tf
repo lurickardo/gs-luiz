@@ -11,8 +11,8 @@ module "compute" {
     rede_vpc_id             = module.rede.rede_vpc_id
     rede_vpc_pub_cidr       = module.rede.rede_vpc_pub_cidr
     rede_vpc_priv_cidr      = module.rede.rede_vpc_priv_cidr
-    rede_subnet_1_id        = module.rede.rede_subnet_1_id
-    rede_subnet_2_id        = module.rede.rede_subnet_2_id
+    rede_subnet_pub_id      = module.rede.rede_subnet_pub_id
+    rede_subnet_priv_id     = module.rede.rede_subnet_priv_id
     compute_image_id        = var.compute_image_id
     compute_instance_type   = var.compute_instance_type
     compute_key_name        = var.compute_image_id
